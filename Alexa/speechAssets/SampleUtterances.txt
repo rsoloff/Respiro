@@ -1,0 +1,12 @@
+EndIntent I hate animals
+EndIntent no
+EndIntent otherwise I am healthy
+
+ISeeIntent I have {Descriptor} {Sickness}
+ISeeIntent I have really {Descriptor} {Sickness} today
+ISeeIntent My {Sickness} is {Descriptor}
+
+AmbulanceIntent I need medical help
+AmbulanceIntent Call a doctor
+AmbulanceIntent I need a doctor
+AmbulanceIntent Help me

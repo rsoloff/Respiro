@@ -1,0 +1,25 @@
+
+{
+  "intents": [
+    {
+      "intent": "ISeeIntent",
+      "slots":[
+        {
+          "name":"Sickness",
+          "type":"LIST_OF_AILMENTS"
+        },
+        {
+          "name":"Descriptor",
+          "type":"DESCRIPTORS"
+        }
+      ]
+    },
+    {
+      "intent": "EndIntent"
+    },
+    {
+      "intent": "AmbulanceIntent"
+    }
+
+  ]
+}
