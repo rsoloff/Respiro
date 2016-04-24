@@ -1,0 +1,42 @@
+Wolfram API which takes in new data from a user reporting their health data
+Params:
+o -> Refers to the opacity of the node element
+s -> Refers to the size of the node element (1 is the entire Wolfram viewport width)
+nlon -> Longitudinal data to be added with the new data
+nlat -> Latitudinal data to be added with the new data
+
+Outputs: List with the new Graph Data, and the Wolfram CloudObject associated with said data
+
+URL -> "https://www.wolframcloud.com/objects/7f6e66dd-fe43-4cbd-b919-fa44c59973c9"
+---
+Wolfram API which takes in a cloud of node data from previous API calls, and
+takes in new data from which new node data will be created.
+Params:
+h -> Refers to the 'head', the Wolfram CloudObject associated with previously computed data
+o -> Refers to the opacity of the node element
+s -> Refers to the size of the node element (1 is the entire Wolfram viewport width)
+nlon -> Longitudinal data to be added with the new data
+nlat -> Latitudinal data to be added with the new data
+
+Outputs: List with the new Graph Data, and the Wolfram CloudObject associated with said data
+URL -> "https://www.wolframcloud.com/objects/a77f5670-7494-4855-aaaf-a602f051c95b"
+---
+Deployed Wolfram API call to visualize health incidents globally from Geolocation
+and other data provided by the above methods.
+
+Params: h -> Refers to the 'head', the Wolfram CloudObject associated with our data
+Returns: Heatmap of health data, in JPEG format
+URL -> "https://www.wolframcloud.com/objects/6001c5fa-2a75-488c-b351-946c35086d1d"
+
+
+'''
+GeoGraphics[
+{
+  {
+    {color1,PointSize[size1],Point[GeoPosition[{long1, lat1}]]},
+    {color2,PointSize[size2],Point[GeoPosition[{long2, lat2}]]},
+    ... etc ...
+  }
+}
+]
+'''
