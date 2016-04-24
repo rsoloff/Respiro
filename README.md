@@ -7,7 +7,7 @@ Such an approach allows us :
   - **Better Access to Information and Care** : This system allows us to reach people (and therefore metadata) that were before now hard to reach. We can get more complete (and therefore more accurate) information about 
   - **The Ability to Influence Health Outcomes**:  Another major benefit of us building a crowdsourcing platform for health data is that it allows us to reach the people we get data from, and positively affect both their (and others') health outcomes. We could text someone in an area of high pollen levels, for example, and warn them that they may want to wear a mask or have antihistimines on hand.
 
-Technologies used: *Node.js*, *AWS's Lambda*, *IBM's Bluemix*, *Twilio*, *Wolfram Language and Cloud*, *NASA's GIBS*
+Technologies used: **Node.js**, **AWS's Lambda**, **IBM's Bluemix**, **Twilio**, **Wolfram Language and Cloud**, **NASA's GIBS**
 
 
 - Bluemix repository: https://hub.jazz.net/project/stran/Respiro/overview
